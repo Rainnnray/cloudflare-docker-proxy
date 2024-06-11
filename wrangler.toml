@@ -3,6 +3,16 @@ workers_dev = true
 main = "src/index.js"
 compatibility_date = "2021-12-07"
 
+routes = [
+    { pattern = "docker.nir.li", custom_domain = true },
+    { pattern = "quay.nir.li", custom_domain = true },
+    { pattern = "gcr.nir.li", custom_domain = true },
+    { pattern = "k8s-gcr.nir.li", custom_domain = true },
+    { pattern = "k8s.nir.li", custom_domain = true },
+    { pattern = "ghcr.nir.li", custom_domain = true },
+    { pattern = "cloudsmith.nir.li", custom_domain = true },
+]
+
 [dev]
 ip = "0.0.0.0"
 port = 8787
