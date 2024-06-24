@@ -4,13 +4,13 @@ main = "src/index.js"
 compatibility_date = "2021-12-07"
 
 routes = [
-    { pattern = "docker.nir.li", custom_domain = true },
-    { pattern = "quay.nir.li", custom_domain = true },
-    { pattern = "gcr.nir.li", custom_domain = true },
-    { pattern = "k8s-gcr.nir.li", custom_domain = true },
-    { pattern = "k8s.nir.li", custom_domain = true },
-    { pattern = "ghcr.nir.li", custom_domain = true },
-    { pattern = "cloudsmith.nir.li", custom_domain = true },
+    { pattern = "docker.8868999.xyz", custom_domain = true },
+    { pattern = "quay.8868999.xyz", custom_domain = true },
+    { pattern = "gcr.8868999.xyz", custom_domain = true },
+    { pattern = "k8s-gcr.8868999.xyz", custom_domain = true },
+    { pattern = "k8s.8868999.xyz", custom_domain = true },
+    { pattern = "ghcr.8868999.xyz", custom_domain = true },
+    { pattern = "cloudsmith.8868999.xyz", custom_domain = true },
 ]
 
 [dev]
