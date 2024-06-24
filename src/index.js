@@ -4,13 +4,13 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.nir.li": "https://registry-1.docker.io",
-  "quay.nir.li": "https://quay.io",
-  "gcr.nir.li": "https://gcr.io",
-  "k8s-gcr.nir.li": "https://k8s.gcr.io",
-  "k8s.nir.li": "https://registry.k8s.io",
-  "ghcr.nir.li": "https://ghcr.io",
-  "cloudsmith.nir.li": "https://docker.cloudsmith.io",
+  "docker.8868999.xyz": "https://registry-1.docker.io",
+  "quay.8868999.xyz": "https://quay.io",
+  "gcr.8868999.xyz": "https://gcr.io",
+  "k8s-gcr.8868999.xyz": "https://k8s.gcr.io",
+  "k8s.8868999.xyz": "https://registry.k8s.io",
+  "ghcr.8868999.xyz": "https://ghcr.io",
+  "cloudsmith.8868999.xyz": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
